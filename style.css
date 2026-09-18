@@ -181,13 +181,14 @@ h1{
   grid-row:1 ;
   grid-column: 2;
   min-width:0;
-  align-self:center;
+  padding: 0.2vh;
+  /*align-self:center;*/
 }
 
 .card h2{
   margin:0;
   font-family:"Cormorant Garamond",Georgia,serif;
-  font-size:clamp(21px,1.65vw,40px);
+  font-size:clamp(21px,1.65vw,66px);
   font-weight:600;
   letter-spacing:.1em;
   text-transform:uppercase;
@@ -198,7 +199,7 @@ h1{
   margin-top:.25rem;
   color:#887453;
   font-family:"Cormorant Garamond",Georgia,serif;
-  font-size:clamp(14px,.72vw,14px);
+  font-size:clamp(14px,.72vw,28px);
 }
 
 .text{
@@ -207,7 +208,7 @@ h1{
   /*align-self:center;*/
   margin:.45rem 0 0;
     /*font-family:"Cormorant Garamond", Georgia, serif;*/
-  font-size:clamp(11px,0.67vw,14px);
+  font-size:clamp(11px,0.75vw,30px);
   line-height:1.15;
 
 }
@@ -236,7 +237,7 @@ footer{
   justify-content:center;
   gap:.9rem;
   color:#938975;
-  font-size:clamp(7px,.52vw,11px);
+  font-size:clamp(7px,.52vw,20px);
   letter-spacing:.1em;
 }
 
