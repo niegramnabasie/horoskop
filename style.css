@@ -70,7 +70,7 @@ body{
 
 .brand{
   font-family:"Cormorant Garamond",Georgia,serif;
-  font-size:clamp(14px,1.25vw,24px);
+  font-size:clamp(14px,1.25vw,60px);
   letter-spacing:.2em;
   color:var(--gold2);
 }
@@ -78,7 +78,7 @@ body{
 
 .date{
   font-family:"Cormorant Garamond",Georgia,serif;
-  font-size:clamp(15px,1.3vw,24px);
+  font-size:clamp(15px,1.3vw,60px);
   letter-spacing:.16em;
   text-transform:uppercase;
 }
@@ -86,7 +86,7 @@ body{
 .moon{
   justify-self:end;
   color:var(--gold);
-  font-size:clamp(16px,1.3vw,24px);
+  font-size:clamp(16px,1.3vw,60px);
 }
 
 .heading{
